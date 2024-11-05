@@ -1,0 +1,10 @@
+[package]
+name = "rust_signals"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#futures = "0.3.30"
+futures-signals = "0.3.34"
+futures = "0.3.30"
+async-std = { version="1.13.0", features = ["unstable"]}
